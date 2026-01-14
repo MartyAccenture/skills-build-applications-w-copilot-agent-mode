@@ -1,0 +1,157 @@
+
+.App {
+  text-align: center;
+}
+
+/* Apple-inspired minimalist design */
+body {
+  font-family: 'San Francisco', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  background: #f8f8fa;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background: rgba(255,255,255,0.85) !important;
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.04);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid #e5e5ea;
+}
+.navbar .navbar-brand {
+  font-weight: 700;
+  font-size: 2rem;
+  color: #111 !important;
+  letter-spacing: -1px;
+}
+.navbar .nav-link {
+  color: #444 !important;
+  font-size: 1.1rem;
+  margin-right: 1rem;
+  transition: color 0.2s;
+}
+.navbar .nav-link.active, .navbar .nav-link:hover {
+  color: #0071e3 !important;
+}
+
+.container {
+  max-width: 900px;
+}
+
+.card {
+  border-radius: 18px;
+  border: none;
+  box-shadow: 0 4px 24px 0 rgba(0,0,0,0.06);
+  background: #fff;
+}
+.card-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #111;
+  letter-spacing: -1px;
+}
+
+.table {
+  background: transparent;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.table th, .table td {
+  border: none;
+  padding: 1rem 0.75rem;
+  font-size: 1.05rem;
+}
+.table thead {
+  background: #f2f2f7;
+  color: #222;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background: #fafafd;
+}
+.table-hover tbody tr:hover {
+  background: #e5f1fb;
+  transition: background 0.2s;
+}
+
+.btn, .btn-primary, .btn-outline-primary {
+  border-radius: 12px;
+  font-weight: 500;
+  font-size: 1.05rem;
+  padding: 0.5rem 1.5rem;
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.04);
+  transition: background 0.2s, color 0.2s;
+}
+.btn-primary {
+  background: #0071e3;
+  border: none;
+}
+.btn-primary:hover, .btn-outline-primary:hover {
+  background: #005bb5;
+  color: #fff;
+}
+.btn-outline-primary {
+  color: #0071e3;
+  border: 1.5px solid #0071e3;
+  background: transparent;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: inherit;
+  font-weight: 600;
+  color: #111;
+  letter-spacing: -1px;
+}
+
+/* Modals */
+.modal-content {
+  border-radius: 18px;
+  border: none;
+  box-shadow: 0 8px 32px 0 rgba(0,0,0,0.10);
+}
+
+/* Forms */
+.form-control, .form-select {
+  border-radius: 12px;
+  border: 1.5px solid #e5e5ea;
+  font-size: 1.05rem;
+  background: #f8f8fa;
+  box-shadow: none;
+  transition: border 0.2s;
+}
+.form-control:focus, .form-select:focus {
+  border-color: #0071e3;
+  box-shadow: 0 0 0 2px #cce4ff;
+}
+
+/* Utility */
+.shadow {
+  box-shadow: 0 4px 24px 0 rgba(0,0,0,0.06) !important;
+}
+.rounded {
+  border-radius: 18px !important;
+}
+.text-primary {
+  color: #0071e3 !important;
+}
+.fw-bold {
+  font-weight: 700 !important;
+}
+.mx-auto {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.mt-5 {
+  margin-top: 3rem !important;
+}
+.mb-4 {
+  margin-bottom: 1.5rem !important;
+}
+.py-4 {
+  padding-top: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
+}
+.py-5 {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
